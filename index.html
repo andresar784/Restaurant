@@ -4,27 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>El Moncayo</title>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Fast Food Home</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+<body class="index-class">
+    <nav class="navbar navbar-expand-lg .bg-* ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="images/header-image.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-            Logo
-          </a>
+            <a class="navbar-brand" href="#">
+                <img src="images/header-image.png" alt="Fast Food logo" width="70" height="50"
+                    class="d-inline-block rounded-1">
+                <label class="header-name">Fast Food</label>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html"><label id="item">Home</label></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html"><label id="item">Menu</label></a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </nav>
-
-    <nav>
-        Botones de navegacion aca
     </nav>
-    <footer>
-        <!-- Add your footer content here -->
-        <p>&copy; 2024 Your Website Name. All rights reserved.</p>
+    <!-- Footer -->
+    <footer class="text-center .bg-*">
+        <!-- Grid container -->
+        <div class="container p-1">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+                <!-- Instagram -->
+                <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-2" id="footer-letter" style="background-color: rgba(62, 209, 52, 0.05);">
+            © 2024 Copyright:
+            <a class="text-body" href="">Fast Food</a>
+        </div>
+        <!-- Copyright -->
     </footer>
 </body>
+
 </html>

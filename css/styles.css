@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+#item {
+    font-size: large;
+    color: #ffffff;
+}
+
+footer {
+    margin-top: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.header-name {
+    padding-top: 3px;
+    font-size: 30px;
+    position: relative;
+    color: #ffffff;
+}
+
+.header-name-menu {
+    padding-top: 3px;
+    font-size: 30px;
+    position: relative;
+}
+
+#footer-letter {
+    font-size: small;
+    color: white;
+}
+
+.index-class {
+    background-image: url("../images/hamburguesa_con_queso.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fab:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    color: #1877f2;;
+}
+
+/* Twitter */
+.fa-twitter {
+    color: rgb(91, 147, 152);
+}
+
+/* Instagram */
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Menu items */
+#menu-container{
+    color: black;
+    padding: 10px;
+    background-color: rgb(252, 252, 250);
+    
+}
+
+#menu-item-title{
+    color: rgb(74, 70, 70);
+    font-size: larger;
+}
+
+#menu-precio{
+    color: black;
+    text-align: start;
+}
