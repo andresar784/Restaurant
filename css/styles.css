@@ -12,12 +12,6 @@ body {
     color: #ffffff;
 }
 
-footer {
-    margin-top: auto;
-    padding: 10px;
-    width: 100%;
-}
-
 .header-name {
     padding-top: 3px;
     font-size: 30px;
@@ -31,6 +25,12 @@ footer {
     position: relative;
 }
 
+footer {
+    margin-top: auto;
+    padding: 10px;
+    width: 100%;
+}
+
 #footer-letter {
     font-size: small;
     color: white;
@@ -42,7 +42,6 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
 
 .fab {
@@ -61,13 +60,17 @@ footer {
 /* Set a specific color for each brand */
 
 /* Facebook */
-.fa-facebook {
-    color: #1877f2;;
+.fa-facebook-f {
+    color: rgb(59, 89, 152);
 }
 
 /* Twitter */
 .fa-twitter {
     color: rgb(91, 147, 152);
+}
+
+.fa-whatsapp {
+    color: rgb(37, 211, 102);
 }
 
 /* Instagram */
@@ -79,24 +82,86 @@ footer {
     -webkit-text-fill-color: transparent;
 }
 
+.fa-wpforms{
+    color: rgb(71, 94, 226);
+}
+
 /* Menu items */
-#menu-container{
+#menu-container {
     color: black;
     padding: 10px;
     background-color: rgb(252, 252, 250);
 }
 
-#menu-item-title{
+#menu-item-title {
     color: rgb(74, 70, 70);
     font-size: larger;
 }
 
-#menu-precio{
+#menu-precio {
     color: black;
     text-align: center;
 }
 
-#menu-description{
+#menu-description {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 3px;
+}
+
+/* Para el formulario de contacto */
+#contacto {
+    background-color: rgb(59, 89, 152);
+    color: white;
+    /* Cambia el color del texto para asegurar la legibilidad */
+    padding: 20px;
+    border-radius: 10px;
+    width: 35em;
+    position: relative;
+}
+
+
+
+/* Estilo para el botón de enviar */
+#submit-btn {
+    background-color: rgb(59, 89, 152);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+    /* Reduce el padding para reducir el tamaño */
+    margin-top: 5px;
+    /* Reduce el margen para ajustar el espacio */
+    font-size: 14px;
+    /* Ajusta el tamaño de fuente para mantener la legibilidad */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.close {
+    position: absolute; 
+    top: 5px; /* Adjust as needed */
+    right: 30px; /* Adjust as needed */
+    color: white;
+    font-size: 50px;
+    background: transparent;
+    border: none;
+    border-radius: 50%; /* Make it rounded */
+    transition: color 0.3s ease, transform 0.3s ease; /* Add transition effect */
+}
+
+.close:focus,
+.close:hover {
+    color: #f00;;
+    text-decoration: none;
+    cursor: pointer;
+    transform: rotate(360deg);
+    background-color: rgba(59, 89, 152, 0.8);
 }
