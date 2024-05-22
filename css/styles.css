@@ -36,8 +36,23 @@ footer {
     color: white;
 }
 
+.custom-carousel .carousel-inner {
+    max-height: 450px; /* Cambia esta altura según lo necesites */
+}
+
+.custom-carousel .carousel-item {
+    height: 450px; /* Asegúrate de que coincida con la altura máxima */
+}
+
+.custom-carousel .carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
 .index-class {
-    background-image: url("../images/hamburguesa_con_queso.jpg");
+    background-image: url("../images/exterior.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -162,6 +177,6 @@ textarea {
     color: #f00;;
     text-decoration: none;
     cursor: pointer;
-    transform: rotate(360deg);
+    transform: rotate(180deg);
     background-color: rgba(59, 89, 152, 0.8);
 }

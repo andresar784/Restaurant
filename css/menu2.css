@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    color: #fff;
+}
+
+.navbar-brand img {
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ccc;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+#menu .row {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#menu-item-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#menu-description {
+    color: #555;
+}
+
+#first-col,
+#last-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+}
+
+#footer-letter {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+footer a {
+    color: #343a40;
+}
+
+footer a:hover {
+    color: #555;
+}
+
+.fab {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fab:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook-f {
+    color: rgb(59, 89, 152);
+}
+
+/* Twitter */
+.fa-twitter {
+    color: rgb(91, 147, 152);
+}
+
+.fa-whatsapp {
+    color: rgb(37, 211, 102);
+}
+
+/* Instagram */
+.fa-instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    /* Also define standard property for compatibility */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-wpforms{
+    color: rgb(71, 94, 226);
+}

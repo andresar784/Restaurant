@@ -1,47 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Restaurante - Menú</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/menu2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container">
-    <a class="navbar-brand" href="#">Restaurante</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">Inicio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Menú</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="index.html#contacto">Contacto</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/header-image.png" alt="Fast Food logo" width="70" height="50" class="d-inline-block rounded-1 ">
+                <label class="header-name-menu">Fast Food</label>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Menu</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center" id="menu">
+        <div class="row justify-content-center">
+            <div id="menu-container" class="col-8">
+                <label id="menu-item-title">Milanesas con pure</label>
+                <p id="menu-description"><i>Milanesas de carne o pollo</i></p>
+                <p id="menu-description"><i>Acompaña pure de papa o boniato </i><label>$250</label></p>
+            </div>
+        </div>
     </div>
-  </div>
-</nav>
-
-<div class="container mt-5">
-  <h1>Menú</h1>
-  <p>Aquí puedes encontrar nuestra deliciosa selección de platos.</p>
-  <!-- Inserta aquí la lista de platos -->
-</div>
-
-<footer class="footer mt-auto py-3 bg-light">
-  <div class="container">
-    <span class="text-muted">© 2024 Restaurante. Todos los derechos reservados.</span>
-  </div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <br>
+    <div class="container text-center" id="menu">
+        <div class="row justify-content-center">
+            <div id="menu-container" class="col-8">
+                <label id="menu-item-title">Napolitana</label>
+                <p id="menu-description"><i>Carne o pollo</i></p>
+                <p id="menu-description"><i>Acompaña fritas </i><label> $450</label></p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center" id="menu">
+        <div class="row justify-content-center">
+            <div id="menu-container" class="col-8">
+                <label id="menu-item-title">Ravioles a la carusso</label>
+                <p id="menu-description"><i>Ravioles de carne, verduras o 4 quesos </i><label> $350</label></p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center" id="menu">
+        <div class="row justify-content-center">
+            <div id="menu-container" class="col-8">
+                <label id="menu-item-title">Panchos</label>
+                <p id="menu-description"><i>Completos </i><label>$100</label></p>
+                <p id="menu-description"><i>Porteños </i><label>$150</label></p>
+                <p id="menu-description"><i>Comun </i><label>$75</label></p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container text-center" id="menu">
+        <div class="row justify-content-center">
+            <div id="menu-container" class="col-8">
+                <label id="menu-item-title">Hamburguesas</label>
+                <p id="menu-description"><i>Carne </i><label> $250</label></p>
+                <p id="menu-description"><i>Doble carne </i><label> $300</label></p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- Footer -->
+    <footer class="text-center bg-body-tertiary">
+        <div class="container p-1">
+            <section class="mb-4">
+                <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i class="fab fa-facebook"></i></a>
+                <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+                <a data-mdb-ripple-init class="btn btn-link btn-floating btn-lg text-body m-1" href="#!" role="button" data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+            </section>
+        </div>
+        <div class="text-center p-2" id="footer-letter" style="background-color: rgba(62, 209, 52, 0.05);">
+            © 2024 Copyright: Fast Food
+        </div>
+    </footer>
 </body>
+
 </html>
